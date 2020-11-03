@@ -1,0 +1,22 @@
+---
+title: "2. Session"
+output: html_notebook
+---
+
+```{r}
+fit <- lm (cars$dist ~ cars$speed)
+```
+
+```{r}
+plot(cars)
+```
+```{r}
+plot(cars)
+abline (fit)
+```
+
+
+```{r}
+summary (fit)
+```
+
